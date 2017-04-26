@@ -1,0 +1,39 @@
+// body {
+//   font-family: 'Source Sans Pro';
+// }
+
+/*
+button, input {
+  font-family: 'Source Sans Pro';
+}
+
+button, input[type="submit"] {
+  cursor: pointer;
+  border: none;
+}
+*/
+
+button, input[type="submit"] {
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #ccc;
+  // font-weight: bold;
+  padding: 4px 8px;
+}
+
+svg text {
+  font-size: 80%;
+}
+
+#container {
+}
+
+#startButton {
+  // font-size: 150%;
+  display: none;
+  padding: 0.5em 2em;
+}
+
+#controls {
+  display: none;
+}

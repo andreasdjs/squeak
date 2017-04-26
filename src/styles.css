@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~normalize.css/normalize.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+font-family: Roboto,"Helvetica Neue",sans-serif;
+
+@media screen and (max-width: 640px) {
+  md-checkbox.small .mat-checkbox-layout {
+  	transform: scale(.78);
+  	margin-right: -3px;
+  	margin-left: -1px;
+  }
+  #svg {
+    display:none;
+  }
+}
